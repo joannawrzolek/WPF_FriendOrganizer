@@ -1,0 +1,15 @@
+C:\Users\joanna.wrzolek\Documents\moje\myProjects\wpf-mvvm-entity-framework-app\04\demos\after\FriendOrganizer.DataAccess\bin\Debug\FriendOrganizer.DataAccess.dll.config
+C:\Users\joanna.wrzolek\Documents\moje\myProjects\wpf-mvvm-entity-framework-app\04\demos\after\FriendOrganizer.DataAccess\bin\Debug\FriendOrganizer.DataAccess.dll
+C:\Users\joanna.wrzolek\Documents\moje\myProjects\wpf-mvvm-entity-framework-app\04\demos\after\FriendOrganizer.DataAccess\bin\Debug\FriendOrganizer.DataAccess.pdb
+C:\Users\joanna.wrzolek\Documents\moje\myProjects\wpf-mvvm-entity-framework-app\04\demos\after\FriendOrganizer.DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\joanna.wrzolek\Documents\moje\myProjects\wpf-mvvm-entity-framework-app\04\demos\after\FriendOrganizer.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\joanna.wrzolek\Documents\moje\myProjects\wpf-mvvm-entity-framework-app\04\demos\after\FriendOrganizer.DataAccess\bin\Debug\FriendOrganizer.Model.dll
+C:\Users\joanna.wrzolek\Documents\moje\myProjects\wpf-mvvm-entity-framework-app\04\demos\after\FriendOrganizer.DataAccess\bin\Debug\FriendOrganizer.Model.pdb
+C:\Users\joanna.wrzolek\Documents\moje\myProjects\wpf-mvvm-entity-framework-app\04\demos\after\FriendOrganizer.DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\joanna.wrzolek\Documents\moje\myProjects\wpf-mvvm-entity-framework-app\04\demos\after\FriendOrganizer.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\joanna.wrzolek\Documents\moje\myProjects\wpf-mvvm-entity-framework-app\04\demos\after\FriendOrganizer.DataAccess\obj\Debug\FriendOrganizer.DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\joanna.wrzolek\Documents\moje\myProjects\wpf-mvvm-entity-framework-app\04\demos\after\FriendOrganizer.DataAccess\obj\Debug\FriendOrganizer.DataAccess.Migrations.InitialDatabase.resources
+C:\Users\joanna.wrzolek\Documents\moje\myProjects\wpf-mvvm-entity-framework-app\04\demos\after\FriendOrganizer.DataAccess\obj\Debug\FriendOrganizer.DataAccess.csproj.GenerateResource.Cache
+C:\Users\joanna.wrzolek\Documents\moje\myProjects\wpf-mvvm-entity-framework-app\04\demos\after\FriendOrganizer.DataAccess\obj\Debug\FriendOrganizer.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\joanna.wrzolek\Documents\moje\myProjects\wpf-mvvm-entity-framework-app\04\demos\after\FriendOrganizer.DataAccess\obj\Debug\FriendOrganizer.DataAccess.dll
+C:\Users\joanna.wrzolek\Documents\moje\myProjects\wpf-mvvm-entity-framework-app\04\demos\after\FriendOrganizer.DataAccess\obj\Debug\FriendOrganizer.DataAccess.pdb
