@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using FriendOrganizer.DataAccess;
 using FriendOrganizer.Model;
+using FriendOrganizer.UI.Data.Lookups;
 
 namespace FriendOrganizer.UI.Data
 {

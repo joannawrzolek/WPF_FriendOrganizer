@@ -46,6 +46,25 @@ Version.cs
 Version.h
 Version.cpp
 
+/build/
+*.suo
+*.user
+_ReSharper.*/
+*.sdf
+bin/
+obj/
+obj/Debug
+Debug/
+Release/
+*.opensdf
+*.tlog
+*.log
+TestResult.xml
+*.VisualState.xml
+Version.cs
+Version.h
+Version.cpp
+
 # Visual Studio 2015 cache/options directory
 .vs/
 # Uncomment if you have tasks that create the project's static files in wwwroot
@@ -314,11 +333,21 @@ __pycache__/
 *.odx.cs
 *.xsd.cs
 
-/.vs/FriendOrganizer/v15/Server/sqlite3/*.ide
-/.vs/FriendOrganizer/v15/Server/sqlite3/*.ide-shm
-/.vs/FriendOrganizer/v15/Server/sqlite3/*.ide-wal
-/.vs/FriendOrganizer/v15/Server/sqlite3/*.lock
-/.vs/FriendOrganizer/v15/Server/sqlite3/storage.ide
-/.vs/FriendOrganizer/v15/Server/sqlite3/storage.ide-shm
-/.vs/FriendOrganizer/v15/Server/sqlite3/storage.ide-wal
-/.vs/FriendOrganizer/v15/Server/sqlite3/db.lock
+/FriendOrganizer.UI/obj/Debug/App.g.i.cs
+/FriendOrganizer.UI/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+/FriendOrganizer.UI/obj/Debug/FriendOrganizer.UI.csproj.CopyComplete
+/FriendOrganizer.UI/obj/Debug/FriendOrganizer.UI.csproj.CoreCompileInputs.cache
+/FriendOrganizer.UI/obj/Debug/FriendOrganizer.UI.csproj.FileListAbsolute.txt
+/FriendOrganizer.UI/obj/Debug/FriendOrganizer.UI.csproj.GenerateResource.Cache
+/FriendOrganizer.UI/obj/Debug/FriendOrganizer.UI.g.resources
+/FriendOrganizer.UI/obj/Debug/FriendOrganizer.UI.Properties.Resources.resources
+/FriendOrganizer.UI/obj/Debug/FriendOrganizer.UI_MarkupCompile.cache
+/FriendOrganizer.UI/obj/Debug/FriendOrganizer.UI_MarkupCompile.i.cache
+/FriendOrganizer.UI/obj/Debug/GeneratedInternalTypeHelper.g.i.cs
+/FriendOrganizer.UI/obj/Debug/MainWindow.g.cs
+/FriendOrganizer.UI/obj/Debug/MainWindow.g.i.cs
+/FriendOrganizer.UI/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs
+/FriendOrganizer.UI/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs
+/FriendOrganizer.UI/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs
+/FriendOrganizer.UI/obj/Debug/View
+/FriendOrganizer.UI/obj/Debug/App.g.cs

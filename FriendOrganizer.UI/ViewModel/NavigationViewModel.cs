@@ -6,6 +6,7 @@ using FriendOrganizer.UI.Event;
 using Prism.Events;
 using System;
 using System.Linq;
+using FriendOrganizer.UI.Data.Lookups;
 
 namespace FriendOrganizer.UI.ViewModel
 {
