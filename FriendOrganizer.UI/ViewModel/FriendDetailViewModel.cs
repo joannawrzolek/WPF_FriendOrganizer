@@ -66,7 +66,7 @@ namespace FriendOrganizer.UI.ViewModel
 					_hasChanges = value;
 					OnPropertyChanged();
 					((DelegateCommand)SaveCommand).RaiseCanExecuteChanged();
-				}				
+				}
 			}
 		}
 
@@ -89,7 +89,5 @@ namespace FriendOrganizer.UI.ViewModel
 		{
 			return Friend != null && !Friend.HasErrors && HasChanges;
 		}
-
-
 	}
 }

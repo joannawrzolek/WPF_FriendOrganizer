@@ -1,6 +1,7 @@
 ﻿using Autofac;
 using FriendOrganizer.DataAccess;
 using FriendOrganizer.UI.Data;
+using FriendOrganizer.UI.Data.Lookups;
 using FriendOrganizer.UI.Data.Repositories;
 using FriendOrganizer.UI.View.Services;
 using FriendOrganizer.UI.ViewModel;
