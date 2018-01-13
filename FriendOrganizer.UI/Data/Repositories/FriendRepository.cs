@@ -1,13 +1,11 @@
 ﻿using System;
 using FriendOrganizer.Model;
-using System.Collections.Generic;
 using System.Linq;
 using FriendOrganizer.DataAccess;
 using System.Threading.Tasks;
 using System.Data.Entity;
-using FriendOrganizer.UI.Data.Repositories;
 
-namespace FriendOrganizer.UI.Data
+namespace FriendOrganizer.UI.Data.Repositories
 {
 	public class FriendRepository : IFriendRepository
 	{
