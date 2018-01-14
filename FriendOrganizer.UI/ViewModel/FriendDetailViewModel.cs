@@ -25,11 +25,15 @@ namespace FriendOrganizer.UI.ViewModel
 			_eventAggregator = eventAggregator;
 
 			SaveCommand = new DelegateCommand(OnSaveExecute, OnSaveCanExecute);
+			DeleteCommand = new DelegateCommand(OnDeleteExecuted);
 		}
 
-		public async Task LoadAsync(int friendId)
+		public async Task LoadAsync(int? friendId)
 		{
-			var friend = await _friendRepository.GetByIdAsync(friendId);
+			var friend = friendId.HasValue
+				? await _friendRepository.GetByIdAsync(friendId.Value)
+				: CreateNewFriend();
+
 
 			Friend = new FriendWrapper(friend);
 			Friend.PropertyChanged += (s, e) =>
@@ -44,6 +48,11 @@ namespace FriendOrganizer.UI.ViewModel
 				}
 			};
 			((DelegateCommand)SaveCommand).RaiseCanExecuteChanged();
+			if (Friend.Id == 0)
+			{
+				//Little trick to trigger the validation
+				Friend.FirstName = "";
+			}
 		}
 
 		public FriendWrapper Friend
@@ -72,6 +81,7 @@ namespace FriendOrganizer.UI.ViewModel
 
 
 		public ICommand SaveCommand { get; }
+		public ICommand DeleteCommand { get; }
 
 		private async void OnSaveExecute()
 		{
@@ -88,6 +98,20 @@ namespace FriendOrganizer.UI.ViewModel
 		private bool OnSaveCanExecute()
 		{
 			return Friend != null && !Friend.HasErrors && HasChanges;
+		}
+
+		private Friend CreateNewFriend()
+		{
+			var friend = new Friend();
+			_friendRepository.Add(friend);
+			return friend;
+		}
+
+		private async void OnDeleteExecuted()
+		{
+			_friendRepository.Remove(Friend.Model);
+			await _friendRepository.SaveAsync();
+			_eventAggregator.GetEvent<AfterFriendDeletedEvent>().Publish(Friend.Id);
 		}
 	}
 }
