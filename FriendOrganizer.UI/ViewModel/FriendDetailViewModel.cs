@@ -113,7 +113,7 @@ namespace FriendOrganizer.UI.ViewModel
 
 		private async void OnDeleteExecuted()
 		{
-			var result = _messageDialogService.ShowOkCancelDialog($"Do you realy want to delete the friend{Friend.FirstName} {Friend.LastName}?",
+			var result = _messageDialogService.ShowOkCancelDialog($"Do you realy want to delete the friend {Friend.FirstName} {Friend.LastName}?",
 				"Question");
 			if (result == MessageDialogResult.OK)
 			{
