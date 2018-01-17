@@ -21,7 +21,6 @@ namespace FriendOrganizer.UI.ViewModel
 			IMessageDialogService messageDialogService)
 		{
 			_eventAggregator = eventAggregator;
-			NavigationViewModel = navigationViewModel;
 			_friendDetailViewModelCreator = friendDetailViewModelCreator;
 			_messageDialogService = messageDialogService;
 
